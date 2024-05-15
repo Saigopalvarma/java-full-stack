@@ -1,0 +1,89 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.main-cnt{
+  min-height: 100vh;
+  width: 100vw;
+  
+  display:flex;
+  flex-direction: row;
+  /* justify-content:flex-end;
+  align-items:flex-end; */
+  
+}
+.r,.rr,.ll,.l{
+  /* display:flex;
+  flex-direction: row; */
+  width:25vw;
+  height:100vh;
+}
+.r{
+  
+  display: flex;
+  flex-direction: column;
+ 
+}
+.rr{
+  background-color: green;
+}
+.l{
+  background-color: beige;
+}
+.ll{
+  background-color:red ;
+}
+.rt{
+  background-color: black;
+  width:100%;
+  height:50%;
+}
+.rb{
+  background-color: rgb(114, 79, 79);
+  width:100%;
+  height:50%;
+}
+.rr{
+  display: flex;
+  flex-direction: column;
+}
+.ll{
+  display: flex;
+  flex-direction: column;
+}
+.l{
+  display: flex;
+  flex-direction: column;
+}
+.rrt{
+  background-color: rgb(199, 183, 183);
+  width:100%;
+  height:25%;
+}
+.rrb{
+  background-color: rgb(99, 73, 73);
+  width:100%;
+  height:75%;
+}
+.llt{
+  background-color: black;
+  width:100%;
+  height:75%;
+}
+.llb{
+  background-color: rgb(114, 79, 79);
+  width:100%;
+  height:25%;
+}
+.lt{
+  background-color: rgb(149, 129, 129);
+  width:100%;
+  height:25%;
+}
+.lb{
+  background-color: rgb(79, 98, 114);
+  width:100%;
+  height:75%;
+}
+
