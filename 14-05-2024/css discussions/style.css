@@ -1,0 +1,15 @@
+*{
+  padding:0px;
+  margin:0px;
+   box-sizing: border-box; 
+}
+#main{
+  height: 300px;  
+  margin-left:75px;
+   margin-top: 15px; 
+  width: 200px;
+  text-align: center;
+  padding-left: 75px;
+    padding-top:450px; 
+ background-color: rgb(144, 154, 146);
+}
