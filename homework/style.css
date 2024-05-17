@@ -12,7 +12,7 @@
 }
 .title-bar{
   width:100vw;
-  height: 40px;
+  height: 60px;
   
   margin-bottom: 15px;
   display:flex;
@@ -51,13 +51,13 @@
   
 } */
 .t-bname{
-  font-size: 12px;
+  font-size: 15px;
 }
 .inside{
   color:yellow;
 }
 .title-bar1{
-  padding-left: 270px;
+  padding-left: 320px;
   width:25%;
   background-color: #2873f0;
   
@@ -83,11 +83,11 @@ padding-top: 10px;
   
 }
 .btn{
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top:5px;
-  padding-bottom: 5px;
-  font-size: 12px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top:12px;
+  padding-bottom: 12px;
+  font-size: 15px;
   color: blue;
   border: none;
   border-radius:2px ;
@@ -110,7 +110,7 @@ width: 25%;
 
 }
 .para{
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
   padding-top: 10px;
 
@@ -118,16 +118,16 @@ width: 25%;
 }
 .para1{
   margin-top: 0px;
-  font-size: 10px;
+  font-size: 15px;
   padding-left: 10px;
   text-align: center;
 }
 .btn1{
-  padding-left: 30px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 30px;
-   
+  padding-left: 50px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 50px;
+   margin-top: 20px;
    
    background-color: #fa651a ;
    border: none;
@@ -141,14 +141,14 @@ width: 25%;
 .para4{
   font-family:sans-serif;
   
-  font-size: 10px;
+  font-size: 15px;
   margin-left: 20px;
 }
 .para5{
   margin-left: 20px;
   font-family:sans-serif;
   
-  font-size: 10px;
+  font-size: 15px;
   margin-left: 20px;
 }
 a{
@@ -160,39 +160,44 @@ a{
 }
 #search-box{
   position:relative; 
-  height: 22px;
+  height: 37px;
+  width: 500px;
   margin:0px;
-  border:none;
+  border: none;
   border-radius: 2px;
   font-family: sans-serif;
-  font-size: 11px;
+  font-size: 15px;
   padding-left: 30px;
 }
 #img2{
   position:fixed;
-  left:740px;
-  top:15px;
+  left:910px;
+  top:20px;
   right:83px;
   width:20px;
-  height: 15px;
+  height: 20px;
 }
 #p1{
   font-family: cursive;
-  font-size: 15px;
+  font-size: 22px;
   padding-left:20px;
   color: #faffff;
 }
 #p2{
   font-family: cursive;
-  font-size: 10px;
+  font-size: 12px;
   padding-left:20px;
   color: #faffff;
 }
 #p3{
   font-family: cursive;
-  font-size: 10px;
+  font-size: 12px;
   padding-left:5px;
   color: yellow;
+}
+#btn-ln{
+  color: #ffffff;
+  font-size: 15px;
 }
 .line{
    width:100vw;
