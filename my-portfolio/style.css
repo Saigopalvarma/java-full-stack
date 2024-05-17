@@ -1,0 +1,485 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main-ctn{
+    width: 100vw;
+    min-height: 100vh;
+}
+/* ---------------------------start of welcome ctn--------------------- */
+.welcome-ctn{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./welcome.jpg');
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    /* background-repeat: no-repeat; */
+}
+.welcome-ctn::after{
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.fixed{
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    z-index: 11; 
+} 
+.heading{
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.btn{
+    top: 350px;
+    width: 400px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #5CDB94;
+    color: #5CDB94;
+    padding: 5px;
+    cursor: not-allowed;
+}
+
+.btn:hover{
+    background-color: #5CDB94;
+    color: red;
+}
+
+
+.para{
+    top: 420px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.content-ctn{
+    position: absolute;
+    z-index: 11;
+    top: 20%;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+
+/* -----------------------------end of welcome ctn---------------------------------- */
+
+
+/* --------------------------------start of services section------------------- */
+
+
+.services{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.top-h{
+    font-family: sans-serif;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+.top-p{
+    font-family: sans-serif;
+}
+.top-h span{
+    color:#5CDB94;
+}
+
+
+.bottom{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.card{
+    width: 40%;
+    height:40%;
+    margin: 20px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 15px;
+}
+
+.card{
+    
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+.div1{
+    background-image: url('./code.jpg');
+}
+.div2{
+    background-image: url('./game.jpg');
+}
+.div3{
+    background-image: url('./AI.jpg');
+}
+.div4{
+    background-image: url('./Training.jpg');
+}
+.card::after{
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity:0.7;
+    /* border-radius: 15px; */
+}
+
+.bottom-content-ctn{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    gap: 10px;
+     
+}
+.card-heading{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.card-logo{
+    width: 100px;
+    height: 100px;
+}
+.card-para{
+    color: white;
+    font-family: sans-serif;
+}
+/* --------------------------------end of services section------------------- */
+
+/* ------------------------------------------start of recent projects----------------------- */
+.recent-projects{
+    padding-bottom: 20px;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    gap: 60px;
+}
+
+.rp-heading{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.rp-heading span{
+    color: #5CDB94;
+}
+
+.recent-project-card{
+    width: 70vw;
+    height: 65vh;
+    border-radius: 20px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.rpc-top{
+    width: 100%;
+    height: 39%;
+    background-image: linear-gradient(to right,#5ACB8E,#495865);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30px;
+    gap: 5px;
+}
+.rpc-bottom{
+    width: 100%;
+    height: 61%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+/* .rpc-bottom img{
+    width: 100%;
+    height: 100%;
+} */
+.bottom-image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: .4s ease transform;
+}
+/* .bottom-image::after{
+   content: "";
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color: black;
+   left: 0;
+   top: 0;
+   z-index: 1;
+} */
+.rpc-bottom:hover .bottom-image{
+    transform: scale(1.1);
+}
+
+/* 
+.rpc-bottom::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+} */
+
+
+.rpc-top-heading{
+    font-size: 39px;
+    color: white;
+    font-weight: 100;
+}
+.rpc-top-sub-heading{
+    font-size: 17px;
+    color: white;
+    font-family: monospace;
+}
+.rpc-top-para{
+    font-size: 15px;
+    color: white;
+    font-family: monospace;
+}
+/* ------------------------------------------end of recent projects----------------------- */
+
+
+/* ----------------start of about me ------------------------- */
+
+.about-me{
+    margin-top: 100px;
+    width: 100vw;
+    height: 220vh;
+    padding-bottom: 200px;
+    position: relative;
+    background-image: url('./about_me.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.abtme-heading span{
+    color: #5ACB8E;
+}
+.about-me::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.about-me-cotent-ctn{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.abtme-heading{
+    font-size: 40px;
+    color: white;
+}
+.abtme-sub-heading{
+    font-size: 20px;
+    color: white;
+}
+.abtme-para{
+    font-size: 15px;
+    color: white;
+}
+.download-btn{
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #5ACB8E;
+    color: #5ACB8E;
+}
+
+.download-btn:hover{
+    background-color: #5ACB8E;
+    color: red;
+}
+
+
+.image-ctn{
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.image-content-ctn{
+    width: 300px;
+    height: 350px;
+    position: relative;
+}
+.image-content-ctn img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.image-content-ctn::after{
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    border: 10px solid #5CDB94;
+    z-index: -1;
+    top: 20px;
+    right: 20px;
+}
+.aboutme-bottom{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap:20px;
+}
+.card1{
+    width: 20%;
+    height:50%;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     gap:12px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    border-radius: 15px;
+    background-image: linear-gradient(to right,white,rgb(240, 169, 169)); 
+    /* background-color: white; */
+    
+}
+.img1{
+    width: 30%;
+    height: 30%;
+}
+.about-me-bottom-btm{
+    font-weight: 200;
+    color:green;
+    font-size: 20px;
+}
+.about-me-btm-para{
+    /* font-weight: 200; */
+    color:rgb(164, 72, 22);
+    font-size: 15px;
+    font-family: cursive;
+}
+/* .image-ctn img::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20px;
+    border: 10 solid #5CDB94;
+} */
+
+/* ----------------end of about me ------------------------- */
+
+
+/* ------------------------------------start of footer--------------------------- */
+
+ .footer{
+    width: 100vw;
+    height: 40vh;
+    background-color:#414d5a;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-image-ctn img{
+    width: 90px;
+    height: 90px;
+    filter: grayscale(1);
+    transition: .2s ease filter;
+    margin-left: 40px;
+}
+
+.footer-image-ctn img:hover{
+    filter: grayscale(0);
+} 
+.footer-heading{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(229, 255, 233);
+}
+.footer-subheading{
+    font-size: 20px;
+    font-weight: 550;
+    font-family:cursive;
+}
+.footer-trademark{
+    font-size: 10px;
+}
+
+
+
+/* ------------------------------------end of footer--------------------------- */
