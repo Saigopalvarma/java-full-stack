@@ -4,7 +4,7 @@ const searchBtn = document.getElementsByClassName("search-btn")[0]
 const infoCtn = document.getElementsByClassName("info-ctn")[0]
 const left = document.getElementsByClassName("left")[0]
 const right = document.getElementsByClassName("right")[0]
-const img = document.getElementsByClassName("card_icon")[0]
+const img_icon= document.getElementsByClassName("card_icon")[0]
 const tempHeading = document.getElementsByClassName("temp")[0]
 const conditionHeading = document.getElementsByClassName("condition")[0]
 const cityHeading = document.getElementsByClassName("city")[0]
@@ -38,11 +38,11 @@ function getValue(){
         const city = data.location.name
         const state = data.location.region
         const tempC = data.current.temp_c
-        img.src = icon
-        img.alt="Icon Not Found"
-        img.classList.add("card_icon")
-        img.classList.remove("hidden")
-        left.appendChild(img)
+        img_icon.src = icon
+        img_icon.alt="Icon Not Found"
+        img_icon.classList.add("card_icon")
+        img_icon.classList.remove("hidden")
+        left.appendChild(img_icon)
 
         tempHeading.innerText = tempC+" deg"+" C"
 
